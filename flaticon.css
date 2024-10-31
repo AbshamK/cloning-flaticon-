@@ -1,0 +1,696 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fullPage{
+    width: 100%;
+}
+.logoAndOther{
+    width: 100%;
+    height: 54px;
+    background-color: #0a152f;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.logoImg{
+    padding-left: 20px;
+    padding-top: 17px;
+    width: 167px;
+    height: 54px;
+    float: left;
+}
+.menu{
+    float: left;
+    font-size: 13px;
+    padding-top: 19.8px;
+    padding-left: 24px;
+
+}
+.headContents{
+    margin-left: 20px;
+    float: left;
+    height: 54px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.pricingSection{
+    margin-left: 500px;
+    float: left;
+}
+.logoImg1{
+    border: none;
+    width: 16px;
+    height: 11px;
+    cursor: pointer;
+}
+.logo{
+    padding-top: 21.5px;
+    height: 54px;
+    width: 53px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 16px;
+    float: left;
+}
+.pricingButton{
+    float: left;
+    height: 100%;
+}
+.pricing{
+    font-size: 13px;
+    background-color: #0a152f;
+    border: none;
+    padding-top: 21.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.moreLogo{
+    float: right;
+    padding-top: 2px;
+    padding-left: 4px;
+}
+.imgLogo{
+    width: 16px;
+    height: 11px;
+}
+.loginAndAlert{
+    float: left;
+    height: 100%;
+    margin-left: -7px;
+}
+.alert{
+    padding-top: 22px;
+    float: left;
+    margin-left: 30px;
+}
+.loginAndSignUp{
+    float: left;
+    margin: 10px;
+    padding-left: 18px;
+    font-weight: 600;
+}
+.login{
+    float: left;
+    padding-top: 10px;
+    font-size: 13px;
+    padding-right: 10px;
+}
+.signUp{
+    float: left;
+    border-radius: 1;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+.signUoButton{
+    background: transparent;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    border-color: #fff;
+    border-width: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.searchDiv{
+    width: 1042px;
+    height: 404px;
+    margin-left: 16.08%;
+    margin-right: 16.08%;
+    padding: 5.2% 6.51% 2.6% 6.51%;
+}
+
+.stickersValuePara{
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+.paraTopOfSearchBar{
+    font-size: 17px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: #424242;
+    
+}
+.iconDiv{
+    float: left;
+}
+.iconButton{
+    float: left;
+    width: 114px;
+    height: 64px;
+    padding: 10px;
+    border: none;
+    border-right: black;
+    cursor: pointer;
+}
+.iconText{
+    float: left;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.searchForm{
+    border: none;
+}
+.searchTextDiv{
+    float: left;
+    width: 602px;
+    height: 64px;
+}
+.SearchForIcons{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    background-color: buttonface;
+    border: none;
+    padding: 10px;
+}
+.moreLogo1{
+    float: left;
+    height: 44px;
+    width: 20px;
+    padding-top: 15px;
+}
+.Searchbutton{
+    float: left;
+    width: 64px;
+    height: 64px;
+    background-color: #52d999;
+    border-radius: 6px;
+    align-items: center;
+    padding: 24px;
+    cursor: pointer;
+}
+.empty{
+    float: left;
+    width: 62px;
+    height: 64px;
+    background-color: buttonface;
+}
+.tags{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 20.8px;
+    padding-right: 198.185px;
+    padding-left: 198.185px;
+}
+.searchAndSelectDiv{
+    height: 64px;
+}
+.textInTags{
+    font-size: 13px;
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.paraTags{
+    float: left;
+}
+.tagsLink{
+    float: left;
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+.tagsLink a:not(:last-child)::after {
+    content: ", ";
+    color: #000000;
+}
+a.tags1{
+    color: #424242;
+    
+}
+.iconsDetails{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.flexIcons{
+    display: grid;
+    width: fit-content;
+    margin: 40px auto 50px;
+    gap: 30px;
+    text-align: center;
+   grid-template-columns: repeat(4, minmax(80px, 200px));
+}
+a.options{
+    color: #424242;
+    font-size: 35px;
+    text-align: center;
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.iconhead{
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: linear-gradient(218.58deg, #44b678 11.5%, #cbf3e0 87.95%);
+}
+.optionIconImg{
+    width: 114px;
+    height: 114px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    z-index: 5;
+    overflow: hidden;
+    background: linear-gradient(110.49deg, #f0f0f0 26.28%, #f0f1ff 94.17%);
+}
+.abc{
+    width: 100%;
+    height: auto;
+}
+.svgContainer{
+    padding: 0 20px 0 20px;
+}
+.svgContainerContent{
+    display: flex;
+    margin: 30px 0 70px;
+    gap: 30px;
+    flex-direction: column;
+}
+.svgContainerHeader{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.svgContainerHeaderContent{
+    color: #424242;
+    
+}
+.uniconsImg{
+    width: 140px;
+    height: 19.5px;
+    margin-right: 10px;
+}
+.svgContainerHeaderContent{
+    display: inline;
+    font-size: 36px;
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.svgContaineroptions{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+span.a.svgContaineroptions{
+    color: #777;
+    font-size: 12px;
+}
+img.a.svgContaineroptions{
+    border-radius: 10px;
+    padding: 50px 30px 50px 30px;
+    width: 271.8px; 
+    height: 324.5px;
+}
+.topIconsandSticker{
+    padding: 0 20px;
+    font-family:  Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: grid;
+    font-size: 15px;
+}
+.topIconsandStickerContainerHeader{
+    font-size: 24px;
+    color: 0a152f;
+    font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    flex: 1;
+    margin: 20px 0 10px;
+}
+.iconListHeader{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.textHolder{
+    display: flex;
+    font-size: 13px;
+    color: #121212;
+    font-weight: 600;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.containnerBox{
+    display: flex;
+    height: 260px;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+
+}
+.box{
+    width: 362.3px;
+    height: 253.6px;
+    align-self: center;
+    border-radius: 8px;
+}
+.topIconsandStickerContainer{
+    margin-bottom: 40px;
+}
+.projectFonts{
+    padding: 0 20px;
+}
+.projectFontsdiv{
+    background-color: #f7f7f7;
+    padding: 0 50px 0 60px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.ContentInProjectFonts{
+    display: flex;
+    font-size: 15px;
+    font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;;
+    gap: 130px;
+}
+.ContentInProjectFontsText{
+    padding: 50px 0 50px 10px;
+
+}
+.projectHead{
+    color: #0a152f;
+    font-size: 32px;
+    font-family: Degular,Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-bottom: 10px;
+    width: 446.4px;
+}
+.projectText{
+    margin-bottom: 30px;
+    font-size: 17px;
+    color:  #424242;
+    width: 446.4px;
+}
+.projectButton{
+    background: #44b678;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 188.44px;
+    height: 44px;
+    font-size: 17px;
+}
+.ContentInProjectFontsImg{
+   align-self: center;
+}
+.tools{
+    padding-bottom: 50px;
+}
+.toolsContainer{
+    padding: 0 20px;
+    font-size: 15px;
+    font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #777;
+}
+.toolsContainerHeader{
+    padding-bottom: 30px;
+    padding-left: 361.6px;
+}
+.toolsContainerHeading{
+    font-size: 32px;
+    color: #0a152f;
+    margin-bottom: 5px;
+    font-family: Degular, Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: -1px;
+}
+.toolsContainerPara{
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+}
+.toolsContent{
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+.collectionsHeading{
+    font-size: 20px;
+    color: #44b678;
+    font-weight: 700;
+    margin: 20px 30px 10px ;
+}
+.collectionsHeader ::before{
+    content: url('data:image/svg+xml,%3Csvg%20width%3D%2210%22%20height%3D%2215%22%20viewBox%3D%220%200%2010%2010%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpolyline%20points%3D%222%2C1%208%2C5%202%2C9%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22/%3E%3C/svg%3E');;
+}
+.collectionsContent{
+    margin: 0 30px 20px ;
+    width: 350px;
+    height: 81.6px;
+    font-size: 17px;
+    color: #5b5b5b;
+    letter-spacing: 1px;
+}
+.editorHeading{
+    font-size: 20px;
+    color: #0a152f;
+    font-weight: 700;
+    margin: 20px 30px 10px ;
+}
+.toolsContentImg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 590px;
+    margin: 0 0 0 30px;
+    position: relative;
+}
+.whatsNew{
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+.whatsNewContainer{
+    padding: 50px 20px 40px 0;
+    background: #f7f7f7;
+}
+.whatsNewFlex{
+    display: flex;
+}
+.whatsNewContent{
+    padding: 0 20px 0 60px;
+    text-align: left;
+    width: 486.39px;
+    height: 205.6px;
+}
+.whatsNewContentHeader{
+    font-size: 32px;
+    font-family: Degular, Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #0a152f;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+.whatsNewContentText{
+    padding-right: 20px;
+    margin-bottom: 30px;
+    font-family:  Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #5b5b5b;
+    font-size: 17px;
+}
+.contentRaw{
+    margin-bottom: 10px;
+    padding: 0 5px 0 75px;
+}
+.linkRaw{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.rawSvg{
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    height: 235px;
+    border: none;
+    border-radius: 8px;
+    color: #424242;
+    box-shadow: 0 1px 4px rgba(66, 66, 66, .06), 0 10px 20px rgba(66, 66, 66, .1);
+    margin: 0 10px;
+    padding: 10px;
+}
+.rawSvgImg{
+    width: 235px;
+    height: 135.6px;
+    margin-bottom: 5px;
+}
+.rawSvgText{
+    margin: 10px 0;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #424242;
+    font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+.plugin{
+    padding: 0 20px;
+}
+.homePlugin{
+    background-color: #eff6ff;
+    padding: 0 0 0 60px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.homePluginFlex{
+    display: flex;
+    align-items: flex-start;
+}
+.pluginContainer{
+    padding: 50px 10px 50px 0;
+    width: 684.6px;
+    height: 261.2px;
+}
+.pluginContainerHeader{
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #142a5e;
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.pluginContainerText{
+    margin-bottom: 30px;
+    color: #142a5e;
+    font-size: 17px;
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: -.8px;
+}
+.pluginButton{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    background: #44b678;
+    color: #fff;
+    width: 180.43px;
+    height: 44px;
+    font-size: 15px;
+}
+.pluginImgContainer{
+    padding-left: 103px ;
+}
+.footer{
+    padding-top: 50px;
+    background-color: #0a152f;
+    color: #9c9c9c;
+    font-size: 13px;
+    border: none;
+}
+.footerContainer{
+    padding: 0 20px;
+    font-family:  Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+    ;
+}
+.footerHeader{
+    display: flex;
+    margin-bottom: 30px;
+}
+.footerHeaderButton{
+    margin-left: 878px;
+}
+.footerButtons{
+    display: flex;
+}
+.SellYourIcons{
+    border: none;
+    border-radius: 6px;
+    background: #44b678;
+    color: #fff;
+    padding: 0 30px;
+    font-size: 14px;
+    height: 44px;
+    font-weight: 600;
+    letter-spacing: -.8px;
+}
+.GoPremium{
+    border: none;
+    border-radius: 6px;
+    background: #feb602;
+    color: #121212;
+    padding: 0 30px;
+    font-size: 14px;
+    height: 44px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.footerList{
+    display: flex;
+}
+.footerColumn{
+    margin-bottom: 30px;
+    width: 20%;
+    font-size: 13px;
+}
+.footerListHeader{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 20.8px;
+}
+.listHeader{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.footerUl{
+    list-style-type: none;
+    font-size: 13px;
+    unicode-bidi: isolate;
+    font-weight: bold;
+}
+.SocialMedia{
+    margin-bottom: 30px;
+    width: 20%;
+    font-size: 13px;
+    align-self: flex-start;
+    text-align: right;
+}
+.share{
+    list-style-type: none;
+    width: 295px;
+    height: 39px;
+    margin-bottom: 10px;
+}
+.signupDescription{
+    margin-bottom: 20px;
+    text-align: right;
+    font-weight: bold;
+    color: #9c9c9c;
+    font-size: 13px;
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.signupButton{
+    background-color:#0a152f;
+    color: #3b9e62;
+    box-shadow: inset 0 0 0 2px #3b9e62;
+    border-radius: 6px;
+    padding: 0 20px;
+    font-size: 13px;
+    height: 34px;
+    width: 87.15px;
+    border: none;
+}
